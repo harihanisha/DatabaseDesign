@@ -1,0 +1,23 @@
+/*
+File:               template.sql
+Author:             Hellen Harry and Musawar Taseer
+Oracle Username:    S11_harryhe    
+Description:
+*/
+
+SET LINESIZE 132
+SET PAGESIZE 255
+
+CREATE OR REPLACE VIEW customerlist AS
+     SELECT custno, custname, custstreet, custcity, custprov, custpcode, disc,
+            balance, credlimit, srepno
+       FROM s11.sh_customer ;
+       
+
+
+/* 
+------------output results -start------------
+View CUSTOMERLIST created.
+
+------------output results -end--------------
+*/

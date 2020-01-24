@@ -1,0 +1,22 @@
+/*
+File:               template.sql
+Author:             Hellen Harry and Musawar Taseer
+Oracle Username:    S11_harryhe    
+Description:
+*/
+
+SET LINESIZE 132
+SET PAGESIZE 255
+
+CREATE OR REPLACE VIEW salesorderlist AS
+     SELECT orderno, orderdate, custno
+       FROM s11.sh_salesorder ;
+       
+
+
+/* 
+------------output results -start------------
+View SALESORDERLIST created.
+
+------------output results -end--------------
+*/
