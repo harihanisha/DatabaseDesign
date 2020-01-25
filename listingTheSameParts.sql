@@ -1,8 +1,8 @@
 /*
 File:               template.sql
 Author:             Hellen Harry
-Oracle Username:    S11_harryhe    
-Description:List the same set of parts as #11 but add (orderno, orderdate) if
+Oracle Username:       
+Description:Listing the same set of parts but add (orderno, orderdate) if
             they were ordered.
 */
 SET LINESIZE 132
